@@ -39,6 +39,17 @@
 .small-logo a img {
     width: 100%;
 }
+.logo-text {
+    display: none;
+}
+.logo-text a {
+    text-decoration: none;
+}
+.logo-text a h1 {
+    color:  rgb(0, 194, 0) ;
+    text-decoration: underline;
+    
+}
 .about-container, .gallery-container {
     position: relative;
 }
@@ -103,6 +114,9 @@
 }
 
 @media screen and (max-width: 830px ) {
+    .nav-items {
+        justify-content: space-between;
+    }
     .menu-button {
         display: block;
     }
@@ -114,6 +128,12 @@
     }
     .logo-item {
         display: none;
+    }
+    .logo-text {
+        display: block;
+    }
+    .small-logo {
+        margin-right: 0;
     }
 }
 @media screen and (min-width: 830px) {
