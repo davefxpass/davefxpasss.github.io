@@ -46,8 +46,7 @@
     text-decoration: none;
 }
 .logo-text a h1 {
-    color:  rgb(0, 194, 0) ;
-    text-decoration: underline;
+    color:  black;
     
 }
 .about-container, .gallery-container {
