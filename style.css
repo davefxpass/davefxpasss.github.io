@@ -29,7 +29,7 @@
     height: auto;
 }
 .small-logo {
-    width: 3.5em;
+    width: 12em;
     display: none;
     margin-right: auto;
 }
@@ -80,7 +80,7 @@
 }
 
 .side-bar-container {
-    background-color: white;
+    background-color: rgb(43, 255, 15);
     width: 60%;
     position: fixed;
     top: 0;
@@ -94,6 +94,7 @@
     overflow: auto;
     margin-top: 0;
     padding-top: 5em;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
 
 }
 .side-items {
@@ -105,7 +106,7 @@
     display: block;
 }
 .side-items:hover {
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(27, 235, 0);
 }
 .side-items a {
     text-decoration: none;
@@ -211,12 +212,23 @@
 
 
 .discover {
-    width: 85%;
+    width: 94%;
     margin: auto;
 }
-.discover hr {
+.discover .dshr {
     color: rgb(0, 199, 0);
     border: 2px solid rgb(0, 199, 0);
+}
+.dicontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dfirst, .dsecond {
+    width: 48%;
+}
+.dshr2 {
+    border: 0.3px dotted black;
 }
 
 /* the code for the teachers and students images */
@@ -232,7 +244,7 @@
 }
 .sub-container {
     width: 24%;
-    margin: 5px;
+    margin: 2px;
 }
 .image-teme {
     width: 100%;
@@ -253,7 +265,6 @@
 /* news and recent events */
 
 .news {
-    border: 1px solid black;
     margin-top: 2em;
 }
 .news>h1, .news>h5 {
@@ -266,20 +277,42 @@
 .news>h5 {
     margin-top: 0;
 }
-
+.news hr {
+    width: 40%;
+    border: 2px solid green;
+    color: green;
+}
 .news-container {
-    border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 2em;
 }
 .news-container .box {
-    width: 350px;
-    height: 400px;
+    width: 32%;
     border: 1px solid black;
-    background-color: rgba(0, 224, 0, 0.945);
     border-radius: 10px;
+    margin: 0 auto 5px auto;
+}
+.box img {
+    width: 100%;
+}
+.box p, .box h1 {
+    position: relative;
+    left: 10px;
+}
+.box h1 {
+    margin: 4px;
+}
+.box p {
+    margin: 0.5px;
+}
+.box h5 {
+    margin: 0;
+    position: relative;
+    top: 2px;
+    left: 10px;
+    text-decoration:underline;
 }
 
 @media screen and (max-width: 830px ) {
@@ -299,9 +332,19 @@
         display: none;
     }
     .sub-container {
-        width: 49%;
-    
+        width: 47%;
     }
+    .news-container .box {
+        width: 47%;
+    }
+    .dicontainer {
+        display: block;
+    }
+    .dfirst, .dsecond {
+        width: 100%;
+    }
+
+    
     
 }
 @media screen and (min-width: 830px) {
@@ -316,7 +359,15 @@
     }
     .sub-container {
         margin: 5px auto 5px auto;
+        width: 93%;
+    }
+    .news-container {
+        flex-direction: column;
+
+    }
+    .news-container .box {
         width: 100%;
+        margin: 0 auto 5px auto;
     }
 }
 
