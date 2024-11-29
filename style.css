@@ -244,13 +244,13 @@ body {
 .image-container {
 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 3.5em;
 }
 .sub-container {
-    width: 24%;
-    margin: 2px;
+    width: 47%;
+    margin: 10px;
 }
 .image-teme {
     width: 100%;
@@ -260,7 +260,7 @@ body {
 .image-teme img {
     width: 100%;
 }
-.image-teme h4 {
+.image-teme h2 {
     position: absolute;
     bottom: 5px;
     left: 15px;
@@ -270,30 +270,45 @@ body {
 
 /* number of students part */
 
-.ncontainer {
-    margin: 3em;
+.no-container {
+    width: 100%;
 }
-.nlist h2, .nlist h4, .nlist svg {
-    margin-bottom: 0;
-    margin-top: 0;
-}
-.nstudents , .nteachers {
-    text-align: center;
-    display: inline-block;
-    margin: 0 20px 0;
-    
-}
-.nscontainer {
+.no-container-2 {
+    width: 90%;
+    margin: auto;
     display: flex;
-    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
+.rec {
+    margin: 10px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    padding: 2em 1.5;
+    width: 30%;
+    border-radius: 5px;
+}
+.rec svg {
+    margin-left: 1.5em;
+}
+.rec-sub {
+    margin-left:  10px;
+}
+.rec-sub h3, .rec-sub p {
+    margin: 0;
+    text-wrap: nowrap;
+}
+
 
 
 /* news and recent events */
 
 .news {
+    clear: both;
     margin-top: 5em;
+    clear: both;
 }
 .news>h1, .news>h5 {
     text-align: center;
@@ -348,32 +363,33 @@ body {
 
 /* footer */
 
-.the-footer {
-    border: 1px solid black;
+footer {
+    padding-top: 3em;
+    margin: 0;
+    background-color: #242331;
+    width: 100%;
 }
-.footer-1 {
-    border: 1px solid black;
-    margin: 2em;
+.footer-1 h1, .footer-1 h4 {
+    color: white;
     text-align: center;
 }
-.footer-1 button {
-    padding: 1.4em 3em;
-    background-color: rgb(0, 230, 0);
-    border: 1px solid black;
-    font-weight: bold;
+.footer-1 h1 {
+    margin-bottom: 0;
+
+}
+.footer-1 h4 {
+    margin-top:0;
+    margin-bottom: 0;
+}
+.footer-2 {
+    width: 85%;
+    margin: 20px auto 0 auto;
+}
+.footer-2 p {
+    text-align: center;
+    color: white;
 }
 
-.footer-2 {
-    width: 20%;
-    margin: auto;
-    border: 1px solid black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.ff {
-    margin: 2px;
-}
 
 
 @media screen and (max-width: 830px ) {
@@ -392,9 +408,6 @@ body {
     .logo-item {
         display: none;
     }
-    .sub-container {
-        width: 47%;
-    }
     .news-container .box {
         width: 90%;
     }
@@ -404,8 +417,17 @@ body {
     .dfirst, .dsecond {
         width: 100%;
     }
+    .container-2 {
+        width: 95%;
+        margin: auto;
+    }
+    .subcont {
+        width: 46%;
 
-    
+    }
+    .rec {
+        width: 40%;
+    }
     
 }
 @media screen and (min-width: 830px) {
@@ -430,5 +452,20 @@ body {
         width: 90%;
         margin: 0 auto 5px auto;
     }
-}
+    .container-2 {
+        width: 80%;
+        margin: auto;
+    }
+    .subcont {
+        width: 100%;
 
+    }
+    .no-container-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .rec {
+        width: 70%;
+
+    }
+}
