@@ -365,7 +365,6 @@ footer {
 .footer-1 {
     
     text-align: center;
-    border: 1px solid white;
 }
 .footer-1 p {
     margin-top: 0;
@@ -380,23 +379,23 @@ footer {
     padding: 1.5em;
     display: flex;
     justify-content: space-around;
-    border: 1px solid white;
+
 }
 .footer-2-1 {
     
     width: 30%;
-    border: 1px solid white;
+
 }
 .footer-2-2 {
     
     width: 30%;
     text-align: center;
-    border: 1px solid white;
+
 }
 .footer-2-3 {
     
     width: 30%;
-    border: 1px solid white;
+
 }
 .email a {
     color: white;
@@ -416,25 +415,21 @@ footer {
 /* achievement part */
 
 .achievement {
-    background-color: rgb(100, 228, 100);
-    margin: 0;
-    width: 100%;
-    
-    
+    width: 96%;
+    margin: auto;
 }
-.achievement h1 {
+.ach-header {
     text-align: center;
 }
-.achieve-cont {
-    width: 93%;
-    margin: 0 auto 0 auto ;
+.ach {
+    width: 20%;
+    background-color: rgb(0, 189, 16);
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.5) 1px 0 6px;
 }
-.achieve-cont ol {
-    list-style-type: none;
-    padding: 0;
-}
-.achieve-cont ol li {
-    margin: 0 0 10px 0;
+.ach-cont {
+    display: flex;
+    justify-content: space-around;
 }
 
 /* table part */
@@ -493,6 +488,7 @@ footer {
     }
     .subcont {
         width: 46%;
+        margin: 5px;
 
     }
     .footer-2 {
@@ -504,6 +500,13 @@ footer {
     }
     .footer-2-3 {
         padding-left: 30%;
+    }
+    .ach {
+        width: 45%;
+        margin: 10px;
+    }
+    .ach-cont {
+        flex-wrap: wrap;
     }
     
     
@@ -541,5 +544,12 @@ footer {
     .footer-2-3 {
         padding-left: 0;
         
+    }
+    .ach {
+        width: 80%;
+        margin: 10px;
+    }
+    .ach-cont {
+        flex-wrap: wrap;
     }
 }
