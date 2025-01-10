@@ -390,6 +390,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%
 }
 .footer-2-2 {
     
@@ -558,4 +559,3 @@ footer {
         flex-wrap: wrap;
     }
 }
-
