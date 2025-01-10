@@ -386,6 +386,11 @@ footer {
     width: 30%;
 
 }
+.footer-2-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .footer-2-2 {
     
     width: 30%;
