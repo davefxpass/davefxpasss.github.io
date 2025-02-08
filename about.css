@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.about-us-header {
+    text-align: center;
+}
+.about-us-hr {
+    width: 30%;
+    margin: auto;
+    border: 2px solid green;
+}
+
+.misvisval-header {
+    text-align: center;
+}
+.mission, .vision{
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0 6px;
+    width: 70%;
+    margin: 2em auto 2em auto;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.values {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0 6px;
+    width: 70%;
+    margin: 2em auto 2em auto;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+.values-p {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+.values-p div {
+
+    width: 25%;
+}
+
+
+.mission p , .vision p , .values-p {
+    font-size: large;
+}
+.mis-span {
+    color: rgb(0, 202, 0);
+}
+
+@media  screen and (max-width: 988px) {
+    .values-p {
+        flex-direction: column;
+    }
+    .values-p div {
+
+        width: 100%;
+        margin-left: 30%;
+    }
+    
+}
+@media screen and (max-width: 610px) {
+    .values-p div {
+
+        width: 100%;
+        margin-left: 20%;
+    }
+}
