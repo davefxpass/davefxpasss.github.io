@@ -70,8 +70,42 @@
     margin: auto;
 }
 
+.iframe-container {
+    position: relative;
+    width: 85%;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    margin: auto;
+  }
+  
+  .responsive-iframe1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    height: 80%;
+    border: none;
+    display: block;
+    margin: auto;
+  }
 
-
+.about-cont-4 {
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+.about-cont-4 div {
+    width: 24%;
+    margin: 3px;
+}
+.about-cont-4 div img {
+    width: 100%;
+}
 
 
 
@@ -87,4 +121,13 @@
         width: 85%;
         margin: 0.6em auto 0.6em auto;
     }
+}
+@media screen and (max-width: 750px) {
+    .about-cont-4 div {
+        width: 47%;
+    }
+    .about-cont-4 {
+        flex-wrap: wrap;
+    }
+    
 }
