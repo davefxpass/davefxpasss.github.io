@@ -1,3 +1,8 @@
+// donate part 
+
+function goToDonatePage() {
+    window.location.href = 'donate.html'
+}
 
 
 

@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.donate-header {
+    padding: 2em;
+    color:  white;
+    background-color: green;
+    text-align: center;
+    margin: 0;
+
+}
+.donate-header>h1 , .donate-header>p {
+    margin: 0.6px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+.donation-section {
+    background: #fff;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.donation-section h2 {
+    color: #333;
+}
+.donation-section p {
+    line-height: 1.6;
+}
+.bank-details, .contact-details {
+    background: #e0ffdf;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+hr {
+    opacity: 0.2;
+}
+.donate-1 {
+    background-color: green;
+    color: white;
+    width: 100%;
+    margin-top: 1.5em;
+}
+.donate-1-1 {
+    width: 80%;
+    margin: auto;
+    padding: 2em 20px 1em 20px;
+}
+.donate-1-1 div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.donate-1-1 div p {
+    width: 90%;
+}
+.sec-1, .sec-2 {
+    display: flex;
+    flex-direction: row;
+}
+.sec-1 h2, .sec-2 h2 {
+    margin-left: 0.6em;
+}

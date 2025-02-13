@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.academics-header {
+    background-color: green;
+    color:  rgb(255, 255, 255);
+    padding: 2.6em;
+}
+.academics-header h1 {
+    text-align: center;
+}
+.academ-1-cont {
+    width: 100%;
+    margin-top: 3.5em;
+    margin-bottom: 2em;
+    background-color: rgb(245, 245, 245);
+}
+.academ-1 {
+    width: 94%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: green;
+
+
+
+}
+.academ-1-1 {
+    width: 48%;
+}
+.academ-1-1 h2 {
+    display: none;
+}
+.academ-1-2 {
+    width: 48%;
+    height: auto;
+}
+.academ-1-2 img {
+    width: 100%;
+}
+
+
+.academ-2 {
+    width: 94%;
+    margin: 3em auto 3em auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.com-2 {
+    width: 45%;
+    margin: 1em 0 1em 0;
+}
+.com-2 h2 {
+    margin-bottom: 0.5em;
+}
+
+.academ-3 {
+    width: 100%;
+    background-color: green;
+    color: white;
+}
+.academ-3-1 {
+    width: 94%;
+    margin: 1em auto 1em auto;
+    padding: 2em 0 3em 0;
+}
+.academ-3-1 h2 {
+    margin: 1em 0 1em 0;
+}
+
+.com-3 {
+    width: 100%;
+}
+.academ-img {
+    width: 100%;
+    margin-bottom: 3.5em;
+
+}
+.academ-img-cont {
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.academ-img-cont div {
+    width: 24%;
+
+}
+.academ-img-cont div img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .academ-1-1 h1 {
+        display: none;
+
+    }
+    .academ-1-1 h2 {
+        display: block;
+    }
+    .academ-1 {
+        flex-direction: column;
+        width: 90%;
+        justify-content: space-between;
+    }
+    .academ-2, .academ-3-1, .academ-img-cont {
+        width: 90%;
+    }
+    .academ-1-1, .academ-1-2 {
+        width: 100%;
+    }
+    .academ-1-1 {
+        margin-bottom: 4em;
+    }
+    .academ-img-cont {
+        flex-wrap: wrap;
+    }
+    .academ-img-cont div {
+        width: 48%;
+        margin-bottom: 1em;
+    }
+}
+@media screen and (max-width: 700px) {
+    .academ-1, .academ-2, .academ-3-1, .academ-img-cont {
+        width: 80%;
+    }
+    .academ-2{
+        flex-direction: column;
+    }
+    .com-2 {
+        width: 100%;
+    }
+    
+}

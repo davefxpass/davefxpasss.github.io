@@ -1,78 +1,50 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>the navbar code</title>
-    <link rel="stylesheet" href="navbar.css">
-    <script src="navbar.js"> </script>
+<nav class="nav-container">
+    <ul class="nav-items">
 
-</head>
+        <li class="items logo-item"> <a href="#"> <img src="./Higa web resource/Picsart_24-09-14_15-32-19-615.png" alt=""> </a> </li>
+        <li class=" small-logo"> <a href="#"> <img src="./Higa web resource/Picsart_24-09-14_15-32-19-615.png" alt=""> </a> </li>
+        
 
-<body>
+        <li class="items about-container max-items"> 
 
-    <nav class="nav-container">
-        <ul class="nav-items">
-
-            <li class="items logo-item"> <a href="#"> <img src="./Higa web resource/Picsart_24-09-14_15-32-19-615.png" alt=""> </a> </li>
-            <li class=" small-logo"> <a href="#"> <img src="./Higa web resource/Picsart_24-09-14_15-32-19-615.png" alt=""> </a> </li>
+            <a href="about.html"> About us </a>
             
+        </li>
 
-            <li class="items about-container max-items"> 
+        <li class="items max-items"> <a href="#"> Academics </a> </li>
 
-                <a href="#"> About us </a> 
+        <li class="items gallery-container max-items"> 
 
-                <div class="about-items">
-                    <div> Test 1</div>
-                    <div> Test 2</div>
-                    <div> Test 3</div>
-                </div>
-                
-            </li>
+            <a href="#"> Gallery </a> 
 
-            <li class="items max-items"> <a href="#"> Publications </a> </li>
+        </li>
 
-            <li class="items gallery-container max-items"> 
+        <li class="items max-items"> <a href="#"> Contact us </a> </li>
 
-                <a href="#"> Gallery </a> 
+        <li class="items max-items"> <button> Donate </button> </li>
 
-                <div class="gallery-items">
-                    <div> Test 1 </div>
-                    <div> Test 2 </div>
-                    <div> test 3</div>
-                </div>
+        <svg class="menu-button" xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        <svg class="close-button" xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        
 
-            </li>
+    </ul>
 
-            <li class="items max-items"> <a href="#"> Contact us </a> </li>
+    <!-- This is code fot navbar of the smaller devices -->
 
-            <li class="items max-items"> <button> Donate </button> </li>
+    <ul class="side-bar-container">
 
-            <svg class="menu-button" xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
-            <svg class="close-button" xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-            
+        <li class="side-items "> <a href="about.html"> About us </a> </li>
 
-        </ul>
+        <li class="side-items "> <a href="#"> Academics </a> </li>
 
-        <!-- This is code fot navbar of the smaller devices -->
+        <li class="side-items "> <a href="#"> Gallery </a> </li>
 
-        <ul class="side-bar-container">
+        <li class="side-items "> <a href="#"> Contact us </a> </li>
 
-            <li class="side-items "> <a href="#"> About us </a> </li>
-
-            <li class="side-items "> <a href="#"> Publications </a> </li>
-
-            <li class="side-items "> <a href="#"> Gallery </a> </li>
-
-            <li class="side-items "> <a href="#"> Contact us </a> </li>
-
-            <li class=" items donate-button"> <button> Donate </button> </li>
+        <li class=" items donate-button"> <button> Donate </button> </li>
 
 
-        </ul>
+    </ul>
 
 
-    </nav>
-
-    
-</body>
-</html>
+</nav>

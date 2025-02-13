@@ -1,0 +1,9 @@
+.page-header {
+    background-color: green;
+    color:  rgb(255, 255, 255);
+    padding: 2.6em;
+    margin-bottom: 3em;
+}
+.page-header h1 {
+    text-align: center;
+}
